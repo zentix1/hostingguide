@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Host Your Project for Free - Vercel Guide</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    body {
+      background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+      color: #fff;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .container {
+      max-width: 900px;
+      width: 100%;
+      margin: 60px auto;
+      background: rgba(255, 255, 255, 0.05);
+      padding: 40px;
+      border-radius: 15px;
+      box-shadow: 0 8px 25px rgba(0, 0, 0, 0.4);
+      flex: 1;
+    }
+
+    h1 {
+      text-align: center;
+      margin-bottom: 35px;
+      font-size: 2.5rem;
+      color: #00ffff;
+    }
+
+    .step {
+      margin: 20px 0;
+      padding-left: 20px;
+      border-left: 4px solid #00ffff;
+      font-size: 1.1rem;
+      line-height: 1.7;
+    }
+
+    .step::before {
+      content: "> ";
+      color: #00ffff;
+      font-weight: bold;
+    }
+
+    a {
+      color: #00ffff;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px 0;
+      color: #ccc;
+      background-color: rgba(255, 255, 255, 0.05);
+      font-size: 0.95rem;
+    }
+
+    footer span {
+      color: #00ffff;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Free Hosting Guide with Vercel</h1>
+
+    <div class="step">Prepare your project Purchased Tool Source Code folder .</div>
+
+    <div class="step">Go to <a href="https://github.com" target="_blank">GitHub</a> and log in (or create an account).</div>
+
+    <div class="step">Click <strong>"New Repository"</strong>, give it a name (like <em>my-site</em>), and click <strong>Create repository</strong>.</div>
+
+    <div class="step">Upload your project files to this GitHub repo. You can drag & drop files or use GitHub Desktop for easier management.</div>
+
+    <div class="step">Now, go to <a href="https://vercel.com" target="_blank">Vercel</a> and sign in using your GitHub account.</div>
+
+    <div class="step">Once logged in, click on <strong>"Add New → Project"</strong>. It will show your GitHub repositories.</div>
+
+    <div class="step">Select the repository you just uploaded, and Vercel will auto-detect it. You can review the settings or leave them default.</div>
+
+    <div class="step">Click the <strong>"Deploy"</strong> button. Wait a few seconds while Vercel builds your site.</div>
+
+    <div class="step">Once done, Vercel will give you a live link like:  
+      <code>https://your-project-name.vercel.app</code>.  
+      You can share this link with anyone — your project is now live online!</div>
+
+    <div class="step">To update your site later, just push changes to your GitHub repo — Vercel auto-updates your site.</div>
+  </div>
+
+  <footer>
+    Powered by <span>Edge Market</span>
+  </footer>
+</body>
+</html>
